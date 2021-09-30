@@ -8,6 +8,9 @@ Google Scripts Code to automate client acquisition sourcing emails, follow-ups, 
 - reports whether email was invalid (bounced) or sent
 - automatically checks and updates the status if the email has been replied to
 
+## Our convention
+Instructions to setup are below, but the code is generalized meaning you can feel free to customize it. We had set columns for variable info, one initial sourcing email draft, one followup draft, and added columns for keeping track of bounces and replies.  Our convention was to title sourcing email subjects "Berkeley Consulting Club Seeks {companyName} as a Client!" and followup drafts "Followup Template FA21", as reflected in the first few lines of code, but this is easily changeable and explained in the first comment. You can create multiple sourcing drafts and add a column to choose from which, structure titles differently, add additional tracking columns, etc. - just read the code!
+
 ## Initial setup
 Most of the settings are generalized and can be changed easily at the top of the code.gs file. At a minimum, you must change the sheet ID. 
 Make a copy of the email automation template sheet
