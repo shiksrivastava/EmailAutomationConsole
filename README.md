@@ -1,2 +1,4 @@
 # EmailAutomationConsole
-Google Scripts Code to automate client acquisition emails, follow-ups, and check status
+Google Scripts Code to automate client acquisition sourcing emails, follow-ups, and check status
+
+![Alt text](pics/console)
